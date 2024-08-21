@@ -1,0 +1,114 @@
+.header {
+    width: 100%;
+    background-color: #232a31;
+  
+    padding: 10px 32px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  .navbar-items {
+    list-style: none;
+  
+    display: flex;
+    align-items: center;
+  
+    gap: 16px;
+  }
+  
+  .navbar-items li a {
+    color: #eeee;
+  
+    text-transform: uppercase;
+  }
+  
+  #login-btn {
+    background-color: #2cc76a;
+    color: #fff;
+  
+    border-radius: 4px;
+  
+    padding: 16px 20px;
+  }
+
+  .banner {
+    height: 450px;
+    background-image: url('../img/mainbanner.png');
+    background-position: center;
+    background-size: cover;
+    padding: 50px 8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+  
+  }
+
+  .banner h1,
+  .banner strong { 
+    color: #fff;
+    text-align: center;
+    }
+
+  .banner h1{
+    font-size: 54px;
+  }
+
+  .banner strong {
+    font-size: 20px;
+
+    margin-bottom: 20px;
+  }
+
+  .SectionBeneficios{
+    text-align: center;
+    padding: 50px 20px;
+    width: 100%;
+  }
+
+  .SectionBeneficios ul{
+    list-style: none;
+    display: flex;
+  }
+
+  .beneficios {
+    color: #8a8282ee;
+    padding: 26px 12px;
+
+  }
+
+  .beneficios p {
+    padding: 26px 12px;
+  }
+
+  .SectionBeneficios i {
+    font-size: 30px; 
+    margin-bottom: 8px; 
+  }
+
+.icon-seguranca {
+  color: #2cc76a;
+ }
+
+ .icon-velocidade {
+  color: red;
+ }
+
+ .icon-suporte {
+  color: orange;
+ }
+
+ .planos h1{
+  text-align: center;
+ }
