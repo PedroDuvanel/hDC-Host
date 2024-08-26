@@ -1,149 +1,183 @@
 .header {
+
   width: 100%;
   background-color: #232a31;
-
   padding: 10px 32px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   gap: 16px;
+
 }
 
 .logo {
+
   width: 50px;
+
 }
 
 .navbar-items {
-  list-style: none;
 
+  list-style: none;
   display: flex;
   align-items: center;
-
   gap: 16px;
+
 }
 
 .navbar-items li a {
-  color: #eeee;
 
+  color: #eeee;
   text-transform: uppercase;
+
 }
 
 #login-btn {
+
   background-color: #2cc76a;
   color: #fff;
-
   border-radius: 4px;
-
   padding: 16px 20px;
+
 }
 
-.banner {
+.banner_principal {
+
   height: 450px;
   background-image: url('../img/mainbanner.png');
   background-position: center;
   background-size: cover;
   padding: 50px 8;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   gap: 12px;
 
 }
 
-.banner h1,
-.banner strong {
+.banner_principal h1,
+.banner_principal strong {
+
   color: #fff;
   text-align: center;
+
 }
 
-.banner h1 {
+.banner_principal h1 {
+
   font-size: 54px;
+
 }
 
-.banner strong {
-  font-size: 20px;
+.banner_principal strong {
 
+  font-size: 20px;
   margin-bottom: 20px;
+
 }
 
 .SectionBeneficios {
+
   text-align: center;
   padding: 50px 20px;
   width: 100%;
+
 }
 
 .SectionBeneficios ul {
   list-style: none;
   display: flex;
+
 }
 
 .beneficios {
+
   color: #8a8282ee;
   padding: 26px 12px;
 
 }
 
 .beneficios p {
+
   padding: 26px 12px;
+
 }
 
 .SectionBeneficios i {
+
   font-size: 30px;
   margin-bottom: 8px;
+
 }
 
 .icon-seguranca {
+
   color: #2cc76a;
+
 }
 
 .icon-velocidade {
+
   color: red;
+
 }
 
 .icon-suporte {
+
   color: orange;
+
 }
 
 .planos h1 {
+
   text-align: center;
+
 }
 
 .preco {
+
   border-radius: 100;
+
 }
 
 .tabelas ul {
+
   border-radius: 50;
+
 }
 
+
 .pricing-container {
+
   padding-bottom: 5em;
   text-align: center;
+
 }
 
 .pricing-container h1 {
+
   font-size: 36px;
   margin-top: 0;
+
 }
 
 .pricing-container p {
+
   font-size: 20px;
+
 }
 
 .plans-container {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 50px;
   width: 90%;
-  /* position: relative; */
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .plan {
@@ -160,7 +194,6 @@
 .plan ul {
 
 padding: 0;
- 
 
 }
 
@@ -172,9 +205,11 @@ padding: 0;
   padding-top: 10px;
   background-color: #e8e9ea;
   color: #333;
+
 }
 
 .plan .price {
+
   width: 110px;
   height: 110px;
   border-radius: 50%;
@@ -187,9 +222,11 @@ padding: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -50px;
+
 }
 
 .plan .plan-name {
+
   text-transform: uppercase;
   font-size: 18px;
   text-align: center;
@@ -198,17 +235,174 @@ padding: 0;
   background-color: #0b2438;
   padding-top: 50px;
   padding-bottom: 50px;
+
 }
 
 .plan .plan-btn {
+
   background-color: rgb(24, 92, 24);
   color: #fff;
   font-size: 24px;
   height: 70px;
   line-height: 50px;
   cursor: pointer;
+
 }
 
 .plan .recommended {
+
   background-color: #ec1810;
+
+}
+
+.search_container {
+  background-color: #34454e;
+  text-align: center;
+  padding: 5em 0;
+}
+
+.search_container h2 {
+  color: #fff;
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.search_container p {
+  color: #d5d5d5;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.search_container input {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.search_container input[type="text"] {
+  margin-bottom: 25px;
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.search_container input[type="submit"] {
+  background-color: #2cc76a;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.contact_container {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 2em;
+}
+
+.contact_container h2 {
+  font-size: 36px;
+}
+
+.contact_container p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.contact_container input,
+.contact_container textarea {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.contact_container textarea {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 468px;
+  height: 150px;
+}
+
+.contact_container input[type="submit"] {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2cc76a;
+  color: #fff;
+}
+
+
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .plans-container {
+    width: 95%;
+  }
+
+  .plan {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .plans-container,
+  .specialties-container ul {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-items li {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .plan {
+    max-width: 100%;
+  }
+
+  .search_container {
+    padding: 3em 2em;
+  }
+
+  .container .search_container input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact_container {
+    padding: 3em 2em;
+  }
+
+  .contact_container input,
+  .contact_container textarea {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
 }
